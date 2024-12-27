@@ -10,8 +10,8 @@ import sqlite3
 import json
 import re
 
-channelid='-1001825834732'
-supportgroupid='-962336869'
+channelid=''
+supportgroupid=''
 
 # Variables
 support = False
@@ -84,10 +84,10 @@ text_price = """⛔ اطلاعیه: تمامی خدمات تا 15 شهریورم
 ✅ در صورت عکس دار بودن آگهی مبلغ 5,000 به هزینه ثبت آگهی اضافه میشود"""
 
 # Admins that can use the admin only commands
-Admin_IDs = [366029355, 5342445670,6621731680,6345430841]
+Admin_IDs = []
 
 # keyboard options for different menus
-updater = Updater("6094494835:AAF4A3bTaQpIodvlo7NdoR_ryBO908kEh_E", use_context=True)
+updater = Updater("", use_context=True)
 kbd_layout = [
     ["مشاهده آگهی ها", "ثبت آگهی"],
     ["آگهی های من", "قیمت آگهی ها"],
